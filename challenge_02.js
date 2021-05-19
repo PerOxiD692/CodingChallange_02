@@ -18,7 +18,7 @@ Alter 13-17 // Cola
 
 let firstName, age;
 firstName = prompt("Bitte gib deinen Namen ein");
-age = prompt("Bitte gib dein alter ein");
+age = Number(prompt("Bitte gib dein alter ein"));
 switch (true) {
     case (age>=0 && age<=5):
         console.log("Ausgabe: Milch");
