@@ -15,3 +15,32 @@ Alter 13-17 // Cola
 */
 
 /* Getränke-Challenge */
+
+let firstname, age;
+firstname = prompt("Bitte gib deinen Namen ein");
+age = prompt("Bitte gib dein alter ein");
+switch (true) {
+    case (age>=0 && age<=5):
+        console.log("Ausgabe: Milch");
+        console.log("Damit wird man groß und stark!");
+        break;
+
+    case (age>=6 && age<=12):
+        console.log("Ausgabe: Fruchtsaft");
+        console.log("Die gesunde Erfrischung!");
+        break;    
+    
+    case (age>=13 && age<=17):
+        console.log("Ausgabe: Cola");
+        console.log("Taste the Feeling!");
+        break;
+
+     case (age>=18):
+        console.log("Ausgabe: Wein");
+        console.log("In vino veritas mein Freund!");
+        break;
+    
+    default:
+        console.log("Ungültige Eingabe");
+        break;
+}
